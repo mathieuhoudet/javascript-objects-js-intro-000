@@ -7,7 +7,7 @@ function updateObjectWithKeyAndValue(obj, key, value) {
     // Otherwise, the object obj will be modified.
     // Test what happens if this line was written as:
     // return Object.assign(obj, { [key]: value })
-console.log(updateObjectWithKeyAndValue())
+console.log(updateObjectWithKeyAndValue());
 
 const recipe = { eggs: 3 }
 
